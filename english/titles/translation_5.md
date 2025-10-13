@@ -10,4 +10,20 @@ The Convergence of Deep Learning and Computer Vision: Smart City Applications an
 
 Компьютерное зрение является одной из активных областей исследований, особенно в эпоху искусственного интеллекта и робототехники [1]. Компьютерное зрение играет очень важную роль в достижении значительных улучшений [2]. Доступность искусственного интеллекта, особенно глубокого обучения, привела к революции в области обработки изображений и компьютерного зрения, а богатая поддержка со стороны моделей глубокого обучения, таких как CNN, RNN, LSTM и многих других, сделала компьютерное зрение более применимым в различных областях автоматизации, таких как производство, беспилотные автомобили, здравоохранение, образование, сельское хозяйство, спутниковые изображения, визуальный QNA и т. д. Название «компьютерное зрение» очень обширно с точки зрения применимости [3]. Компьютерное зрение представляет собой сочетание обнаружения объектов, сегментации, реорганизации, локализации, восстановления и т. д. [4-6]. Благодаря таким функциям компьютерного зрения, его применимость стала более значимой в области распознавания лиц в рамках биометрической идентификации, автоматизированных автомобилей, AR/VR, а также в медицинской науке и умных городах, где оно играет важную роль в диагностике заболеваний [7]. Модели глубокого обучения могут обрабатывать сложные данные из различных источников, таких как видео, аудио, медицинские изображения, социальные сети, данные датчиков (IoT), спутниковые изображения [8-11]. Алгоритмы компьютерного зрения являются ключевым элементом для реализации концепции умных городов. Умный транспорт, энергосберегающие автоматические визуальные датчики, наблюдение за инфраструктурой для предупреждения о нештатных ситуациях, подсчет количества пользователей инфраструктуры, сбор статистики в часы пик, умный мониторинг человеческих ресурсов, а также инфраструктуры [12-14]. Компьютерное зрение играет важную роль в развитии и управлении умными городами, поскольку оно является «глазами города». В этой статье мы подробно рассмотрим важные аспекты умного города, такие как умный транспорт, умное здравоохранение, умное сельское хозяйство и умная безопасность.
 
+# Пересказ
 
+The article is titled *“The Convergence of Deep Learning and Computer Vision: Smart City Applications and Research Challenges.”*
+
+The authors of the article are Deep Kothadiya and others.
+
+The research question addressed in the article is how deep learning and computer vision technologies can be integrated to support smart city development.
+
+The central theme of the article is the role of computer vision in building and managing smart cities. It is dedicated to explaining how these technologies improve areas such as traffic safety, patient monitoring, agricultural productivity, and public security.
+
+The research conducted includes a literature review and analysis of existing smart city projects using deep learning and computer vision.
+
+The results indicate strong performance in areas such as real-time surveillance, disease detection in agriculture, and automated traffic management.
+
+In the discussion, they highlight challenges like data privacy, system safety, and infrastructure limitations.
+
+I found the article to be interesting and relevant because it reflects real situations in the modern world.
