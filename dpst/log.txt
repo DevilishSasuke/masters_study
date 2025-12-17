@@ -1,0 +1,209 @@
+Training model: linear_svm
+Fitting 3 folds for each of 16 candidates, totalling 48 fits
+[CV] END clf__C=0.5, features__ngram__min_df=2, features__ngram__ngram_range=
+=(2, 4); total time=   9.6s
+[CV] END clf__C=0.5, features__ngram__min_df=5, features__ngram__ngram_range=
+=(2, 4); total time=  11.7s
+[CV] END clf__C=0.5, features__ngram__min_df=5, features__ngram__ngram_range=
+=(3, 5); total time=  12.7s
+[CV] END clf__C=0.5, features__ngram__min_df=2, features__ngram__ngram_range=
+=(2, 4); total time=  13.6s
+[CV] END clf__C=0.5, features__ngram__min_df=2, features__ngram__ngram_range=
+=(2, 4); total time=  13.7s
+[CV] END clf__C=0.5, features__ngram__min_df=5, features__ngram__ngram_range=
+=(3, 5); total time=  14.1s
+[CV] END clf__C=0.5, features__ngram__min_df=2, features__ngram__ngram_range=
+=(3, 5); total time=  14.4s
+[CV] END clf__C=0.5, features__ngram__min_df=2, features__ngram__ngram_range=
+=(3, 5); total time=  14.5s
+[CV] END clf__C=0.5, features__ngram__min_df=5, features__ngram__ngram_range=
+=(3, 5); total time=  14.4s
+[CV] END clf__C=0.5, features__ngram__min_df=2, features__ngram__ngram_range=
+=(3, 5); total time=  16.1s
+[CV] END clf__C=0.5, features__ngram__min_df=5, features__ngram__ngram_range=
+=(2, 4); total time=  18.1s
+[CV] END clf__C=0.5, features__ngram__min_df=5, features__ngram__ngram_range=
+=(2, 4); total time=  18.3s
+[CV] END clf__C=1, features__ngram__min_df=2, features__ngram__ngram_range=
+=(2, 4); total time=  15.2s
+[CV] END clf__C=1, features__ngram__min_df=2, features__ngram__ngram_range=
+=(3, 5); total time=  16.0s
+[CV] END clf__C=1, features__ngram__min_df=5, features__ngram__ngram_range=
+=(3, 5); total time=  12.9s
+[CV] END clf__C=1, features__ngram__min_df=5, features__ngram__ngram_range=
+=(2, 4); total time=  18.8s
+[CV] END clf__C=1, features__ngram__min_df=2, features__ngram__ngram_range=
+=(2, 4); total time=  21.6s
+[CV] END clf__C=1, features__ngram__min_df=5, features__ngram__ngram_range=
+=(3, 5); total time=  17.7s
+[CV] END clf__C=1, features__ngram__min_df=2, features__ngram__ngram_range=
+=(3, 5); total time=  20.5s
+[CV] END clf__C=1, features__ngram__min_df=5, features__ngram__ngram_range=
+=(2, 4); total time=  19.9s
+[CV] END clf__C=1, features__ngram__min_df=2, features__ngram__ngram_range=
+=(2, 4); total time=  23.1s
+[CV] END clf__C=1, features__ngram__min_df=5, features__ngram__ngram_range=
+=(2, 4); total time=  22.3s
+[CV] END clf__C=1, features__ngram__min_df=5, features__ngram__ngram_range=
+=(3, 5); total time=  18.8s
+[CV] END clf__C=1, features__ngram__min_df=2, features__ngram__ngram_range=
+=(3, 5); total time=  24.0s
+[CV] END clf__C=2, features__ngram__min_df=2, features__ngram__ngram_range=
+=(2, 4); total time=  22.5s
+[CV] END clf__C=2, features__ngram__min_df=2, features__ngram__ngram_range=
+=(2, 4); total time=  24.9s
+[CV] END clf__C=2, features__ngram__min_df=2, features__ngram__ngram_range=
+=(3, 5); total time=  22.2s
+[CV] END clf__C=2, features__ngram__min_df=2, features__ngram__ngram_range=
+=(2, 4); total time=  25.9s
+[CV] END clf__C=2, features__ngram__min_df=5, features__ngram__ngram_range=
+=(2, 4); total time=  25.5s
+[CV] END clf__C=2, features__ngram__min_df=5, features__ngram__ngram_range=
+=(2, 4); total time=  25.1s
+[CV] END clf__C=2, features__ngram__min_df=5, features__ngram__ngram_range=
+=(3, 5); total time=  25.3s
+[CV] END clf__C=2, features__ngram__min_df=2, features__ngram__ngram_range=
+=(3, 5); total time=  29.5s
+[CV] END clf__C=2, features__ngram__min_df=5, features__ngram__ngram_range=
+=(2, 4); total time=  27.4s
+[CV] END clf__C=2, features__ngram__min_df=2, features__ngram__ngram_range=
+=(3, 5); total time=  30.0s
+[CV] END clf__C=2, features__ngram__min_df=5, features__ngram__ngram_range=
+=(3, 5); total time=  27.1s
+[CV] END clf__C=2, features__ngram__min_df=5, features__ngram__ngram_range=
+=(3, 5); total time=  27.8s
+[CV] END clf__C=5, features__ngram__min_df=2, features__ngram__ngram_range=
+=(2, 4); total time=  36.0s
+[CV] END clf__C=5, features__ngram__min_df=2, features__ngram__ngram_range=
+=(3, 5); total time=  25.1s
+[CV] END clf__C=5, features__ngram__min_df=2, features__ngram__ngram_range=
+=(2, 4); total time=  32.9s
+[CV] END clf__C=5, features__ngram__min_df=5, features__ngram__ngram_range=
+=(3, 5); total time=  29.4s
+[CV] END clf__C=5, features__ngram__min_df=5, features__ngram__ngram_range=
+=(3, 5); total time=  28.6s
+[CV] END clf__C=5, features__ngram__min_df=2, features__ngram__ngram_range=
+=(3, 5); total time=  33.7s
+[CV] END clf__C=5, features__ngram__min_df=5, features__ngram__ngram_range=
+=(2, 4); total time=  31.9s
+[CV] END clf__C=5, features__ngram__min_df=2, features__ngram__ngram_range=
+=(3, 5); total time=  37.9s
+[CV] END clf__C=5, features__ngram__min_df=5, features__ngram__ngram_range=
+=(3, 5); total time=  31.9s
+[CV] END clf__C=5, features__ngram__min_df=2, features__ngram__ngram_range=
+=(2, 4); total time=  40.3s
+[CV] END clf__C=5, features__ngram__min_df=5, features__ngram__ngram_range=
+=(2, 4); total time=  33.9s
+[CV] END clf__C=5, features__ngram__min_df=5, features__ngram__ngram_range=
+=(2, 4); total time=  33.6s
+Best params: {'clf__C': 2, 'features__ngram__min_df': 2, 
+'features__ngram__ngram_range=': (2, 4)}
+
+Best CV score: 0.9625805352153068
+Test macro F1: 0.9485
+Test micro F1: 0.9666
+              precision    recall  f1-score   support
+
+         ADJ     0.9459    0.9275    0.9366      2470
+        NOUN     0.9747    0.9813    0.9780      6861
+        VERB     0.9275    0.9343    0.9309       137
+
+    accuracy                         0.9666      9468
+   macro avg     0.9494    0.9477    0.9485      9468
+weighted avg     0.9665    0.9666    0.9665      9468
+
+
+Training model: naive_bayes
+Fitting 3 folds for each of 12 candidates, totalling 36 fits
+[CV] END clf__alpha=0.1, ngram__min_df=5, ngram__ngram_range=
+=(2, 4); total time=   0.4s
+[CV] END clf__alpha=0.1, ngram__min_df=2, ngram__ngram_range=
+=(2, 4); total time=   0.4s
+[CV] END clf__alpha=0.1, ngram__min_df=2, ngram__ngram_range=
+=(3, 5); total time=   0.4s
+[CV] END clf__alpha=0.1, ngram__min_df=2, ngram__ngram_range=
+=(3, 5); total time=   0.4s
+[CV] END clf__alpha=0.1, ngram__min_df=2, ngram__ngram_range=
+=(2, 4); total time=   0.4s
+[CV] END clf__alpha=0.1, ngram__min_df=5, ngram__ngram_range=
+=(3, 5); total time=   0.4s
+[CV] END clf__alpha=0.1, ngram__min_df=5, ngram__ngram_range=
+=(3, 5); total time=   0.4s
+[CV] END clf__alpha=0.1, ngram__min_df=2, ngram__ngram_range=
+=(3, 5); total time=   0.5s
+[CV] END clf__alpha=0.1, ngram__min_df=5, ngram__ngram_range=
+=(3, 5); total time=   0.4s
+[CV] END clf__alpha=0.1, ngram__min_df=5, ngram__ngram_range=
+=(2, 4); total time=   0.4s
+[CV] END clf__alpha=0.1, ngram__min_df=5, ngram__ngram_range=
+=(2, 4); total time=   0.4s
+[CV] END clf__alpha=0.1, ngram__min_df=2, ngram__ngram_range=
+=(2, 4); total time=   0.5s
+[CV] END clf__alpha=0.5, ngram__min_df=2, ngram__ngram_range=
+=(2, 4); total time=   0.4s
+[CV] END clf__alpha=0.5, ngram__min_df=2, ngram__ngram_range=
+=(2, 4); total time=   0.4s
+[CV] END clf__alpha=0.5, ngram__min_df=2, ngram__ngram_range=
+=(3, 5); total time=   0.4s
+[CV] END clf__alpha=0.5, ngram__min_df=2, ngram__ngram_range=
+=(3, 5); total time=   0.4s
+[CV] END clf__alpha=0.5, ngram__min_df=2, ngram__ngram_range=
+=(3, 5); total time=   0.4s
+[CV] END clf__alpha=0.5, ngram__min_df=5, ngram__ngram_range=
+=(3, 5); total time=   0.4s
+[CV] END clf__alpha=0.5, ngram__min_df=5, ngram__ngram_range=
+=(3, 5); total time=   0.4s
+[CV] END clf__alpha=0.5, ngram__min_df=5, ngram__ngram_range=
+=(3, 5); total time=   0.4s
+[CV] END clf__alpha=0.5, ngram__min_df=5, ngram__ngram_range=
+=(2, 4); total time=   0.4s
+[CV] END clf__alpha=0.5, ngram__min_df=5, ngram__ngram_range=
+=(2, 4); total time=   0.4s
+[CV] END clf__alpha=0.5, ngram__min_df=5, ngram__ngram_range=
+=(2, 4); total time=   0.4s
+[CV] END clf__alpha=0.5, ngram__min_df=2, ngram__ngram_range=
+=(2, 4); total time=   0.5s
+[CV] END clf__alpha=1.0, ngram__min_df=2, ngram__ngram_range=
+=(2, 4); total time=   0.4s
+[CV] END clf__alpha=1.0, ngram__min_df=2, ngram__ngram_range=
+=(2, 4); total time=   0.4s
+[CV] END clf__alpha=1.0, ngram__min_df=2, ngram__ngram_range=
+=(3, 5); total time=   0.4s
+[CV] END clf__alpha=1.0, ngram__min_df=2, ngram__ngram_range=
+=(3, 5); total time=   0.4s
+[CV] END clf__alpha=1.0, ngram__min_df=2, ngram__ngram_range=
+=(2, 4); total time=   0.4s
+[CV] END clf__alpha=1.0, ngram__min_df=2, ngram__ngram_range=
+=(3, 5); total time=   0.4s
+[CV] END clf__alpha=1.0, ngram__min_df=5, ngram__ngram_range=
+=(3, 5); total time=   0.3s
+[CV] END clf__alpha=1.0, ngram__min_df=5, ngram__ngram_range=
+=(3, 5); total time=   0.4s
+[CV] END clf__alpha=1.0, ngram__min_df=5, ngram__ngram_range=
+=(3, 5); total time=   0.3s
+[CV] END clf__alpha=1.0, ngram__min_df=5, ngram__ngram_range=
+=(2, 4); total time=   0.4s
+[CV] END clf__alpha=1.0, ngram__min_df=5, ngram__ngram_range=
+=(2, 4); total time=   0.4s
+[CV] END clf__alpha=1.0, ngram__min_df=5, ngram__ngram_range=
+=(2, 4); total time=   0.4s
+Best params: {'clf__alpha': 0.1, 'ngram__min_df': 2, 
+'ngram__ngram_range=': (3, 5)}
+
+Best CV score: 0.9322648302379962
+Test macro F1: 0.8782
+Test micro F1: 0.9387
+              precision    recall  f1-score   support
+
+         ADJ     0.8998    0.8794    0.8894      2470
+        NOUN     0.9540    0.9641    0.9590      6861
+        VERB     0.8417    0.7372    0.7860       137
+
+    accuracy                         0.9387      9468
+   macro avg     0.8985    0.8602    0.8782      9468
+weighted avg     0.9382    0.9387    0.9384      9468
+
+
+Saved best overall model to: 
+output_pos_word_classifier\best_model_linear_svm.joblib
+Best overall macro F1: 0.9485
