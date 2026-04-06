@@ -1,0 +1,23 @@
+SELECT city, item_category, amount
+FROM `//tmp/lab2_orders`
+WHERE item_category = 'Electronics' AND status = 'COMPLETED' AND amount > 30000
+ORDER BY amount DESC;
+
+SELECT 
+    city, 
+    COUNT(*) AS total_orders, 
+    SUM(amount) AS total_earn, 
+    AVG(amount) AS avg_sell
+FROM `//tmp/lab2_orders`
+WHERE status = 'COMPLETED'
+GROUP BY city
+ORDER BY total_earn DESC;
+
+SELECT 
+    user_id, 
+    SUM(amount) AS user_total_sell
+FROM `//tmp/lab2_orders`
+WHERE status = 'COMPLETED'
+GROUP BY user_id
+ORDER BY user_total_sell DESC
+LIMIT 8;

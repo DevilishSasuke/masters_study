@@ -1,0 +1,600 @@
+{
+"order_id": 1001,
+"user_id": 501,
+"city": "Москва",
+"item_category": "Electronics",
+"amount": 85000,
+"status": "COMPLETED"
+}
+{
+"order_id": 1002,
+"user_id": 502,
+"city": "Питер",
+"item_category": "Books",
+"amount": 1200.5,
+"status": "COMPLETED"
+}
+{
+"order_id": 1003,
+"user_id": 503,
+"city": "Казань",
+"item_category": "Clothing",
+"amount": 4500,
+"status": "CANCELED"
+}
+{
+"order_id": 1004,
+"user_id": 504,
+"city": "Новосибирск",
+"item_category": "Electronics",
+"amount": 32000,
+"status": "COMPLETED"
+}
+{
+"order_id": 1005,
+"user_id": 505,
+"city": "Екатеринбург",
+"item_category": "Home",
+"amount": 15600,
+"status": "PROCESSING"
+}
+{
+"order_id": 1006,
+"user_id": 501,
+"city": "Москва",
+"item_category": "Clothing",
+"amount": 2100,
+"status": "COMPLETED"
+}
+{
+"order_id": 1007,
+"user_id": 506,
+"city": "Нижний Новгород",
+"item_category": "Sports",
+"amount": 8900,
+"status": "COMPLETED"
+}
+{
+"order_id": 1008,
+"user_id": 502,
+"city": "Питер",
+"item_category": "Electronics",
+"amount": 12000,
+"status": "COMPLETED"
+}
+{
+"order_id": 1009,
+"user_id": 507,
+"city": "Самара",
+"item_category": "Food",
+"amount": 3400,
+"status": "COMPLETED"
+}
+{
+"order_id": 1010,
+"user_id": 508,
+"city": "Краснодар",
+"item_category": "Books",
+"amount": 950,
+"status": "CANCELED"
+}
+{
+"order_id": 1011,
+"user_id": 503,
+"city": "Казань",
+"item_category": "Electronics",
+"amount": 15000,
+"status": "COMPLETED"
+}
+{
+"order_id": 1012,
+"user_id": 509,
+"city": "Уфа",
+"item_category": "Clothing",
+"amount": 5200,
+"status": "PROCESSING"
+}
+{
+"order_id": 1013,
+"user_id": 504,
+"city": "Новосибирск",
+"item_category": "Home",
+"amount": 1200,
+"status": "COMPLETED"
+}
+{
+"order_id": 1014,
+"user_id": 510,
+"city": "Тюмень",
+"item_category": "Sports",
+"amount": 25000,
+"status": "COMPLETED"
+}
+{
+"order_id": 1015,
+"user_id": 501,
+"city": "Москва",
+"item_category": "Food",
+"amount": 4100,
+"status": "COMPLETED"
+}
+{
+"order_id": 1016,
+"user_id": 511,
+"city": "Воронеж",
+"item_category": "Electronics",
+"amount": 44000,
+"status": "COMPLETED"
+}
+{
+"order_id": 1017,
+"user_id": 505,
+"city": "Екатеринбург",
+"item_category": "Books",
+"amount": 2100,
+"status": "PROCESSING"
+}
+{
+"order_id": 1018,
+"user_id": 512,
+"city": "Пермь",
+"item_category": "Clothing",
+"amount": 3800,
+"status": "COMPLETED"
+}
+{
+"order_id": 1019,
+"user_id": 506,
+"city": "Нижний Новгород",
+"item_category": "Electronics",
+"amount": 19000,
+"status": "CANCELED"
+}
+{
+"order_id": 1020,
+"user_id": 513,
+"city": "Красноярск",
+"item_category": "Home",
+"amount": 7600,
+"status": "COMPLETED"
+}
+{
+"order_id": 1021,
+"user_id": 502,
+"city": "Питер",
+"item_category": "Food",
+"amount": 1500,
+"status": "COMPLETED"
+}
+{
+"order_id": 1022,
+"user_id": 507,
+"city": "Самара",
+"item_category": "Sports",
+"amount": 12300,
+"status": "PROCESSING"
+}
+{
+"order_id": 1023,
+"user_id": 514,
+"city": "Омск",
+"item_category": "Electronics",
+"amount": 56000,
+"status": "COMPLETED"
+}
+{
+"order_id": 1024,
+"user_id": 508,
+"city": "Краснодар",
+"item_category": "Clothing",
+"amount": 4400,
+"status": "COMPLETED"
+}
+{
+"order_id": 1025,
+"user_id": 515,
+"city": "Челябинск",
+"item_category": "Books",
+"amount": 800,
+"status": "CANCELED"
+}
+{
+"order_id": 1026,
+"user_id": 503,
+"city": "Казань",
+"item_category": "Food",
+"amount": 2200,
+"status": "COMPLETED"
+}
+{
+"order_id": 1027,
+"user_id": 516,
+"city": "Ростов-на-Дону",
+"item_category": "Electronics",
+"amount": 1200,
+"status": "PROCESSING"
+}
+{
+"order_id": 1028,
+"user_id": 504,
+"city": "Новосибирск",
+"item_category": "Sports",
+"amount": 18500,
+"status": "COMPLETED"
+}
+{
+"order_id": 1029,
+"user_id": 509,
+"city": "Уфа",
+"item_category": "Home",
+"amount": 3300,
+"status": "COMPLETED"
+}
+{
+"order_id": 1030,
+"user_id": 517,
+"city": "Волгоград",
+"item_category": "Clothing",
+"amount": 2700,
+"status": "CANCELED"
+}
+{
+"order_id": 1031,
+"user_id": 501,
+"city": "Москва",
+"item_category": "Electronics",
+"amount": 99000,
+"status": "COMPLETED"
+}
+{
+"order_id": 1032,
+"user_id": 505,
+"city": "Екатеринбург",
+"item_category": "Food",
+"amount": 500,
+"status": "COMPLETED"
+}
+{
+"order_id": 1033,
+"user_id": 510,
+"city": "Тюмень",
+"item_category": "Books",
+"amount": 4500,
+"status": "PROCESSING"
+}
+{
+"order_id": 1034,
+"user_id": 512,
+"city": "Пермь",
+"item_category": "Electronics",
+"amount": 22000,
+"status": "COMPLETED"
+}
+{
+"order_id": 1035,
+"user_id": 506,
+"city": "Нижний Новгород",
+"item_category": "Clothing",
+"amount": 6100,
+"status": "COMPLETED"
+}
+{
+"order_id": 1036,
+"user_id": 518,
+"city": "Саратов",
+"item_category": "Sports",
+"amount": 3100,
+"status": "CANCELED"
+}
+{
+"order_id": 1037,
+"user_id": 502,
+"city": "Питер",
+"item_category": "Home",
+"amount": 14200,
+"status": "COMPLETED"
+}
+{
+"order_id": 1038,
+"user_id": 513,
+"city": "Красноярск",
+"item_category": "Electronics",
+"amount": 28000,
+"status": "PROCESSING"
+}
+{
+"order_id": 1039,
+"user_id": 507,
+"city": "Самара",
+"item_category": "Books",
+"amount": 1100,
+"status": "COMPLETED"
+}
+{
+"order_id": 1040,
+"user_id": 514,
+"city": "Омск",
+"item_category": "Food",
+"amount": 2900,
+"status": "COMPLETED"
+}
+{
+"order_id": 1041,
+"user_id": 503,
+"city": "Казань",
+"item_category": "Sports",
+"amount": 7700,
+"status": "COMPLETED"
+}
+{
+"order_id": 1042,
+"user_id": 519,
+"city": "Ижевск",
+"item_category": "Clothing",
+"amount": 5500,
+"status": "PROCESSING"
+}
+{
+"order_id": 1043,
+"user_id": 508,
+"city": "Краснодар",
+"item_category": "Electronics",
+"amount": 15600,
+"status": "CANCELED"
+}
+{
+"order_id": 1044,
+"user_id": 504,
+"city": "Новосибирск",
+"item_category": "Books",
+"amount": 1300,
+"status": "COMPLETED"
+}
+{
+"order_id": 1045,
+"user_id": 520,
+"city": "Барнаул",
+"item_category": "Home",
+"amount": 9200,
+"status": "COMPLETED"
+}
+{
+"order_id": 1046,
+"user_id": 501,
+"city": "Москва",
+"item_category": "Sports",
+"amount": 14000,
+"status": "COMPLETED"
+}
+{
+"order_id": 1047,
+"user_id": 511,
+"city": "Воронеж",
+"item_category": "Food",
+"amount": 3200,
+"status": "PROCESSING"
+}
+{
+"order_id": 1048,
+"user_id": 505,
+"city": "Екатеринбург",
+"item_category": "Electronics",
+"amount": 67000,
+"status": "COMPLETED"
+}
+{
+"order_id": 1049,
+"user_id": 509,
+"city": "Уфа",
+"item_category": "Clothing",
+"amount": 2900,
+"status": "COMPLETED"
+}
+{
+"order_id": 1050,
+"user_id": 515,
+"city": "Челябинск",
+"item_category": "Books",
+"amount": 1800,
+"status": "CANCELED"
+}
+{
+"order_id": 1051,
+"user_id": 502,
+"city": "Питер",
+"item_category": "Sports",
+"amount": 5600,
+"status": "COMPLETED"
+}
+{
+"order_id": 1052,
+"user_id": 510,
+"city": "Тюмень",
+"item_category": "Electronics",
+"amount": 11000,
+"status": "PROCESSING"
+}
+{
+"order_id": 1053,
+"user_id": 506,
+"city": "Нижний Новгород",
+"item_category": "Home",
+"amount": 4300,
+"status": "COMPLETED"
+}
+{
+"order_id": 1054,
+"user_id": 516,
+"city": "Ростов-на-Дону",
+"item_category": "Food",
+"amount": 2100,
+"status": "COMPLETED"
+}
+{
+"order_id": 1055,
+"user_id": 503,
+"city": "Казань",
+"item_category": "Books",
+"amount": 600,
+"status": "COMPLETED"
+}
+{
+"order_id": 1056,
+"user_id": 512,
+"city": "Пермь",
+"item_category": "Sports",
+"amount": 12000,
+"status": "CANCELED"
+}
+{
+"order_id": 1057,
+"user_id": 507,
+"city": "Самара",
+"item_category": "Electronics",
+"amount": 35000,
+"status": "COMPLETED"
+}
+{
+"order_id": 1058,
+"user_id": 504,
+"city": "Новосибирск",
+"item_category": "Clothing",
+"amount": 4800,
+"status": "PROCESSING"
+}
+{
+"order_id": 1059,
+"user_id": 513,
+"city": "Красноярск",
+"item_category": "Home",
+"amount": 2200,
+"status": "COMPLETED"
+}
+{
+"order_id": 1060,
+"user_id": 508,
+"city": "Краснодар",
+"item_category": "Food",
+"amount": 3900,
+"status": "COMPLETED"
+}
+{
+"order_id": 1061,
+"user_id": 501,
+"city": "Москва",
+"item_category": "Books",
+"amount": 2400,
+"status": "COMPLETED"
+}
+{
+"order_id": 1062,
+"user_id": 514,
+"city": "Омск",
+"item_category": "Sports",
+"amount": 9900,
+"status": "PROCESSING"
+}
+{
+"order_id": 1063,
+"user_id": 505,
+"city": "Екатеринбург",
+"item_category": "Clothing",
+"amount": 7100,
+"status": "CANCELED"
+}
+{
+"order_id": 1064,
+"user_id": 511,
+"city": "Воронеж",
+"item_category": "Home",
+"amount": 8500,
+"status": "COMPLETED"
+}
+{
+"order_id": 1065,
+"user_id": 502,
+"city": "Питер",
+"item_category": "Electronics",
+"amount": 52000,
+"status": "COMPLETED"
+}
+{
+"order_id": 1066,
+"user_id": 509,
+"city": "Уфа",
+"item_category": "Food",
+"amount": 1700,
+"status": "PROCESSING"
+}
+{
+"order_id": 1067,
+"user_id": 515,
+"city": "Челябинск",
+"item_category": "Sports",
+"amount": 4500,
+"status": "COMPLETED"
+}
+{
+"order_id": 1068,
+"user_id": 503,
+"city": "Казань",
+"item_category": "Home",
+"amount": 11000,
+"status": "COMPLETED"
+}
+{
+"order_id": 1069,
+"user_id": 510,
+"city": "Тюмень",
+"item_category": "Clothing",
+"amount": 3400,
+"status": "CANCELED"
+}
+{
+"order_id": 1070,
+"user_id": 506,
+"city": "Нижний Новгород",
+"item_category": "Books",
+"amount": 1300,
+"status": "COMPLETED"
+}
+{
+"order_id": 1071,
+"user_id": 517,
+"city": "Волгоград",
+"item_category": "Electronics",
+"amount": 19500,
+"status": "PROCESSING"
+}
+{
+"order_id": 1072,
+"user_id": 504,
+"city": "Новосибирск",
+"item_category": "Food",
+"amount": 2600,
+"status": "COMPLETED"
+}
+{
+"order_id": 1073,
+"user_id": 507,
+"city": "Самара",
+"item_category": "Clothing",
+"amount": 5900,
+"status": "COMPLETED"
+}
+{
+"order_id": 1074,
+"user_id": 501,
+"city": "Москва",
+"item_category": "Home",
+"amount": 12500,
+"status": "COMPLETED"
+}
+{
+"order_id": 1075,
+"user_id": 508,
+"city": "Краснодар",
+"item_category": "Sports",
+"amount": 16000,
+"status": "PROCESSING"
+}
