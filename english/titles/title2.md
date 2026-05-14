@@ -16,8 +16,6 @@ The results of this new model were excellent. The upgraded AI found potholes wit
 
 In conclusion, this upgraded system is light, fast, and highly accurate. It can easily be installed on city cars or flying drones to automatically scan the streets. This means cities can find and fix dangerous potholes much faster, making our roads safer and saving a lot of money in the long run.
 
-
-
 ### 5 Comprehension Questions (Вопросы и ожидаемые ответы)
 
 **1. Why are standard 2D cameras not enough for modern road maintenance systems?**
