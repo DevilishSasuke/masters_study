@@ -1,0 +1,213 @@
+openapi: 3.0.3
+info:
+  title: Заказы и учет остатков
+  version: 1.0.0
+  description: >
+    This is very simple example of 2 apps:
+    one is warehouse that contains remains of items
+    and another one is orders that give order if
+    warehouse has enough items to sell
+
+paths:
+  # эндпоинты системы учета остатков
+  /items:
+    get:
+      description: get all stored items
+      responses:
+        "200":
+          description: "List of items"
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/ItemResponse'
+        "404":
+          description: Table not exists
+
+  /items/{name}:
+    get:
+      description: returns amount of remaining item
+      parameters:
+        - name: name
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Amount of item
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  amount:
+                    type: integer
+        "400":
+          description: Error during getting amount
+        "404":
+          description: This items is not exist
+    put:
+      description: add or update item amount
+      parameters:
+        - name: name
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                amount:
+                  type: integer
+                  minimum: 1
+      responses:
+        "200":
+          description: item was successfully added or changed
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ItemResponse'
+    delete:
+      description: delete item
+      parameters:
+        - name: name
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "204":
+          description: item was successfully deleted
+        "404":
+          description: item not found, nothing to delete
+    
+
+  /items/{name}/reduce:
+    post:
+      description: Reduce amount of stored item by 1
+      parameters:
+        - name: name
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+          "200":
+            description: "Item amount was successfully reduced by one"
+            content:
+              application/json:
+                schema:
+                  $ref: '#/components/schemas/ItemResponse'
+          "400":
+            description: "Item is sold out"
+          "404":
+            description: "Item is not exist"
+
+
+  /orders:
+    get:
+      description: get all orders
+      responses:
+        "200":
+          description: list of all orders
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Order'
+        "404":
+          description: Table not exists
+
+    post:
+      description: create order if available and reduce number of order item by 1
+      requestBody:
+        required: true
+        content: 
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+      responses:
+        "200":
+          description: Successfully created order
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Order'
+        "400":
+          description: Item is sold out
+        "404":
+          description: Item not found
+
+  /orders/{id}:
+    get:
+      description: get order by id
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: order info
+        "404":
+          description: order doesn't exist
+    delete:
+      description: delete order
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "204":
+          description: order was successfully deleted
+        "404":
+          description: order not found, nothing to delete
+      
+
+components:
+  schemas:
+    Item:
+      type: object
+      required:
+        - name
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        amount:
+          type: integer
+
+    ItemResponse:
+      type: object
+      properties:
+        name:
+          type: string
+        amount:
+          type: integer
+
+    Order:
+      type: object
+      properties:
+        id:
+          type: integer
+        item_name:
+          type: string
+        amount:
+          type: integer
+        timestamp:
+          type: string
+          format: date-time

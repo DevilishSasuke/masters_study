@@ -1,0 +1,48 @@
+stages:
+  - linter
+  - run_default
+  - test_logic
+  - docker_build
+
+default:
+  image: python:3.13-slim
+  before_script:
+    - apt-get update
+    - pip install -r requirements.txt
+
+linter_job:
+  stage: linter
+  before_script:
+    - pip install ruff
+  script:
+    - ruff check warehouse/ tests/
+
+run_app_job:
+  stage: run_default
+  script:
+    - python -c "from warehouse.main import app;"
+    - echo "no errors while running app"
+
+test_logic_job:
+  stage: test_logic
+  variables:
+    OTEL_SDK_DISABLED: "true"
+    LOKI_URL: "http://localhost:3100"
+  script:
+    - pip install pytest httpx
+    - python -m pytest tests/ -v
+
+.docker_build_job:
+  stage: docker_build
+  image: docker:29.4.0
+  services:
+    - docker:29.4.0-dind
+  variables:
+    DOCKER_HOST: tcp://docker:2375
+    DOCKER_TLS_CERTDIR: ""
+  before_script: []
+  script:
+    - sleep 5
+    - docker info
+    - docker build -t fastapi_warehouse:test .
+    - echo "docker was successfully created"
